@@ -73,4 +73,18 @@
 
     <script src="script.js"></script>
 </body>
+
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./sw.js')
+                .then((registration) => {
+                    console.log('Service Worker registrado:', registration);
+                })
+                .catch((error) => {
+                    console.error('Service Worker no registrado:', error);
+                });
+        });
+    }
+</script>
 </html>
