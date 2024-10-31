@@ -1,7 +1,7 @@
 {
     "short_name": "MiApp",
     "name": "Mi Aplicación Web",
-    "start_url": "index.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "description": "Mi aplicación web en formato APK",
