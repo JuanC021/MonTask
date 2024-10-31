@@ -1,0 +1,16 @@
+{
+    "short_name": "MiApp",
+    "name": "Mi Aplicación Web",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "description": "Mi aplicación web en formato APK",
+    "icons": [
+      {
+        "src": "icono.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
